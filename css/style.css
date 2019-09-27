@@ -1,10 +1,11 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(132, 132, 132, 0.3);
   float: left;
   position: fixed;
   width: 100%;
@@ -23,6 +24,7 @@ nav {
   width: 70%;
 }
 
+
 .left, .right {
   float: left;
   width: 50%;
@@ -30,6 +32,50 @@ nav {
 
 .right {
   float: right;
+}
+
+/* for the nav links */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #0000FF;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  color: ##EE0000;
+}
+
+
+
+/* adding in h1 h3 p resize fonts */
+
+h1 {
+  font-size: 2.5em; /* 40px */
+  line-height: 1.5;
+}
+
+
+h3 {
+  font-size: 1.5em; /* 24px */
+  line-height: normal;
+}
+
+p {
+  font-size: 100%
+}
+
+
+/* end font */
+
+p {
+  line-height: 1.75;
 }
 
 ul {
